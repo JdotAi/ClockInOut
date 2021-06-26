@@ -13,9 +13,15 @@ Everyday the data base should start with a new list
 """
 
 from TimeStamp import *
+from DataBase import *
+keepgoing = codeStoper(codeString)
 
 
-CheckMeIn()
+
+
+while keepgoing:
+    print(keepgoing)
+    CheckMeIn()
 
 
 
